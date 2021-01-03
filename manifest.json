@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "free will",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "icons": {
         "48": "free_will2.png",
         "128": "free_will2.png"
