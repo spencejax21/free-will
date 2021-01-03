@@ -1,0 +1,32 @@
+{
+    "manifest_version": 2,
+    "name": "free will",
+    "version": "0.1.0",
+    "icons": {
+        "48": "free_will2.png",
+        "128": "free_will2.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["block.js"]
+        }
+    ],
+    "background":
+    {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "browser_action":
+    {
+        "default_popup": "popup.html",
+        "default_icon": "free_will2.png"
+    },   
+    "permissions": [
+        "storage",
+        "tabs"
+    ],
+    "options_page": "options.html",
+    "web_accessible_resources": ["blocked.html","delay.js","block.js","popup.js"]
+
+}

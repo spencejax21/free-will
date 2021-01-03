@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="free_will2.png">
+    <link rel="stylesheet" href="styles.css">
+    <title>Options</title>
+</head>
+<body class="options">
+    <img src="free_will_small2.PNG">
+    <div>
+        <h1 class="options-title">Options</h1>
+        <h2>List websites to delay:</h2>
+        <h3 style="font-style:italic; color:darkgrey;">(one website per line; leave blank for ALL websites)</h3>
+        <textarea style="resize: none; white-space: nowrap;" name="websites" id="websites" cols="45" rows="10"></textarea>
+    </div>
+    <br>
+    <div>
+        <h2>Enter delay time:</h2>
+        <h3 style="font-style:italic; color:darkgrey;">(seconds)</h3>
+        <input style="width: 30px;" type="number" name="delay-time" id="delay-time" min="0"></input>
+    </div>
+    <br><br><br><br>
+    <button class="options-button" id="save">Save Changes</button>
+    <div style="position: absolute; left: 50%; bottom: 1%;">
+        <div style="position: relative; left: -50%;">
+            <h2 class="about">Made by Spencer Jackson. This project is open source on 
+                <a class = "about" href="https://github.com/spencejax21">GitHub</a>!</h2>
+        </div>
+    </div>
+    <script src="save_options.js"></script>
+
+</body>
+</html>

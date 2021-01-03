@@ -1,0 +1,115 @@
+.blocked {
+    
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 8%;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+.options {
+    text-align: center;
+    margin: 50px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.free-will {
+    font-style: italic;
+    font-weight: bold;
+    color: #0070C0;
+    font-size: 48px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.free-will-popup {
+    font-style: italic;
+    font-weight: bold;
+    color: #0070C0;
+    font-size: 38px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 3px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+
+}
+.free-will-popup-quotes {
+    font-style: italic;
+    font-weight: bold;
+    color:darkgrey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.block-message {
+    font-size: 36px;
+    font-weight: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.quote {
+    font-style: italic;
+    font-size: 22px;
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+    color: darkgrey;
+}
+.about {
+    font-style: italic;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+    color: darkgrey;
+}
+.countdown {
+    font-size: 60px;
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+}
+.countdown-stopped {
+    font-size: 60px;
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+    color:crimson;
+}
+.old-url {
+    font-size: 24px;
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+    color:darkgrey;
+}
+.image {
+    width: 6%;
+    height: auto;
+}
+.options-title {
+    font-size: 30px;
+    font-weight: bolder;
+}
+.options-button {
+    border-radius: 4px; 
+    border: none; 
+    background-color:#0070C0; 
+    color:white; 
+    width: 125px; 
+    height: 25px; 
+    font-weight: bold;
+}
+.slogan {
+    font-style: italic;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+    color: darkgrey;
+    padding-top: 0px;
+    margin-top:0;
+    
+}
+button:hover {
+    background-color: darkgrey;
+    
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type=number] {
+    -moz-appearance:textfield; /* Firefox */
+}
